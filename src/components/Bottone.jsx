@@ -1,7 +1,7 @@
-function Bottone () {
+function Bottone (props) {
     return (
             <button className="btn btn-primary mt-2">
-                Bottone
+            {props.titolo}   
             </button>
     )
 };
